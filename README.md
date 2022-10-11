@@ -1,2 +1,9 @@
 # expense_manager_react_typescript
- Expense manager using React TypeScript and Bootstrap
+
+First React TtypeScript project. Simple expense manager.
+
+- [Live site](https://silver-bonbon-7fe3fe.netlify.app/)
+
+## Screenshot
+
+![](./Screenshot.png)
