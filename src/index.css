@@ -1,0 +1,23 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.custom-grid {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 576px) {
+  .custom-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .custom-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1440px) {
+  .custom-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
