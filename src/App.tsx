@@ -28,7 +28,7 @@ const App = () => {
   const [listModalOpen, setListModalOpen] = useState(false)
   const [addModalOpen, setAddModalOpen] = useState(false)
   const [indexToShow, setIndexToShow] = useState(0)
-  const [categoryToAdd, setCategoryToAdd] = useState<string>('')
+  const [categoryToAdd, setCategoryToAdd] = useState('')
   const [nameOfExpenseToAdd, setNameOfExpenseToAdd] = useState('')
   const [amountOfExpenseToAdd, setAmountOfExpenseToAdd] = useState(0)
 
